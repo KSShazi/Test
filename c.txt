@@ -1,8 +1,10 @@
-MATH1024
-MGT2011
-CSE1031
-CSE2014l
-CSE2016l
-ETE2024l
-CSE2021
-CSE3015
+#include <stdio.h>
+int main()
+{
+    int firstNumber, secondNumber, sumOfTwoNumbers;
+    printf("Enter two integers: ");
+    scanf("%d %d", &firstNumber, &secondNumber);
+    sumOfTwoNumbers = firstNumber + secondNumber;     
+    printf("%d + %d = %d", firstNumber, secondNumber, sumOfTwoNumbers);
+    return 0;
+}
